@@ -3,11 +3,7 @@
 
 
 import unittest
-import mockito
 
-from unittest.test.test_case import Test
-
-from mockito import mock, when, verify
 
 from Classes import RabbitsCalculation
 

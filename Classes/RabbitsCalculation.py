@@ -3,6 +3,7 @@
 
 
 class RabbitsCalculation:
+    @classmethod
     def compute(self, months: int, sons_per_pair: int, earlier_rabbits: int, before_earlier_rabbits) -> int:
         if months > 40 or months < 0 or sons_per_pair > 5 or sons_per_pair < 0:
             raise Exception('Arguments are not the on the valid range')
@@ -14,3 +15,4 @@ class RabbitsCalculation:
             else:
                 res = earlier_rabbits
             return res
+
