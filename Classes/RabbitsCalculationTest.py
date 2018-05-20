@@ -1,4 +1,4 @@
-# This class tests the class RabbitsCalculation.py
+# This class tests the class RabbitsCalculation.py it has erros and needs more to test too
 #
 
 
